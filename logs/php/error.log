@@ -1,0 +1,50 @@
+[09-Sep-2022 03:55:56 UTC] PHP Parse error:  syntax error, unexpected ':' in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 7
+[09-Sep-2022 04:11:30 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC) in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 8
+[09-Sep-2022 04:15:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function length() in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:6
+Stack trace:
+#0 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\enzie....')
+#2 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\enzie....')
+#3 {main}
+  thrown in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 6
+[09-Sep-2022 04:15:41 UTC] PHP Warning:  Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP) in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 6
+[09-Sep-2022 04:15:41 UTC] PHP Stack trace:
+[09-Sep-2022 04:15:41 UTC] PHP   1. {main}() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\index.php:0
+[09-Sep-2022 04:15:41 UTC] PHP   2. require() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\index.php:17
+[09-Sep-2022 04:15:41 UTC] PHP   3. require_once() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-blog-header.php:19
+[09-Sep-2022 04:15:41 UTC] PHP   4. include() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\template-loader.php:106
+[09-Sep-2022 04:16:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function length() in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:6
+Stack trace:
+#0 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\enzie....')
+#2 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\enzie....')
+#3 {main}
+  thrown in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 6
+[13-Sep-2022 00:32:06 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\script-loader.php:2465
+Stack trace:
+#0 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\script-loader.php(2495): wp_should_load_separate_core_block_assets()
+#1 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(307): wp_enqueue_registered_block_scripts_and_styles('')
+#2 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\script-loader.php(2352): do_action('enqueue_block_a...')
+#5 C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(307): wp_common_block_scri in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\script-loader.php on line 2465
+[13-Sep-2022 01:08:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_featuers' not found or invalid function name in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 307
+[13-Sep-2022 01:08:05 UTC] PHP Stack trace:
+[13-Sep-2022 01:08:05 UTC] PHP   1. {main}() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\index.php:0
+[13-Sep-2022 01:08:05 UTC] PHP   2. require() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\index.php:17
+[13-Sep-2022 01:08:05 UTC] PHP   3. require_once() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[13-Sep-2022 01:08:05 UTC] PHP   4. require_once() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-load.php:50
+[13-Sep-2022 01:08:05 UTC] PHP   5. require_once() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-config.php:91
+[13-Sep-2022 01:08:05 UTC] PHP   6. do_action() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-settings.php:576
+[13-Sep-2022 01:08:05 UTC] PHP   7. WP_Hook->do_action() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\plugin.php:476
+[13-Sep-2022 01:08:05 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[13-Sep-2022 01:08:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_featuers' not found or invalid function name in C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 307
+[13-Sep-2022 01:08:05 UTC] PHP Stack trace:
+[13-Sep-2022 01:08:05 UTC] PHP   1. {main}() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\index.php:0
+[13-Sep-2022 01:08:05 UTC] PHP   2. require() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\index.php:17
+[13-Sep-2022 01:08:05 UTC] PHP   3. require_once() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-blog-header.php:13
+[13-Sep-2022 01:08:05 UTC] PHP   4. require_once() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-load.php:50
+[13-Sep-2022 01:08:05 UTC] PHP   5. require_once() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-config.php:91
+[13-Sep-2022 01:08:05 UTC] PHP   6. do_action() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-settings.php:576
+[13-Sep-2022 01:08:05 UTC] PHP   7. WP_Hook->do_action() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\plugin.php:476
+[13-Sep-2022 01:08:05 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\enzie.riddle\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
